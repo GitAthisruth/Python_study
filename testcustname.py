@@ -1,0 +1,2 @@
+# import customname
+# customname.name()

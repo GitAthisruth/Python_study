@@ -1,0 +1,74 @@
+{
+  "states": [
+    {
+      "abbreviation": "AL",
+      "areacode": [
+        "123",
+        "205",
+        "455"
+      ]
+    },
+    {
+      "abbreviation": "AK",
+      "areacode": [
+        "233"
+      ]
+    },
+    {
+      "abbreviation": "AS",
+      "areacode": [
+        "234",
+        "566"
+      ]
+    },
+    {
+      "abbreviation": "AZ",
+      "areacode": [
+        "239",
+        "567"
+      ]
+    },
+    {
+      "abbreviation": "AR",
+      "areacode": [
+        "444"
+      ]
+    },
+    {
+      "abbreviation": "CA",
+      "areacode": [
+        "123",
+        "987",
+        "786"
+      ]
+    },
+    {
+      "abbreviation": "CO",
+      "areacode": [
+        "564"
+      ]
+    },
+    {
+      "abbreviation": "CT",
+      "areacode": [
+        "456",
+        "808",
+        "675"
+      ]
+    },
+    {
+      "abbreviation": "DE",
+      "areacode": [
+        "223",
+        "785"
+      ]
+    },
+    {
+      "abbreviation": "DC",
+      "areacode": [
+        "234",
+        "489"
+      ]
+    }
+  ]
+}
