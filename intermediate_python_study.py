@@ -376,11 +376,112 @@
 # d.rotate(-1)
 # print(d)
 
-# Itertools
+# Itertools: product , permutations,combinations,accumulate,groupby, and infinite iterators
+# -itertools module is a collection of tools to handle different types of iterators.
+
+#Iterators are the data types that can be used in a for loop. 
+
+# a = "ashshs "
+# for i in a :
+#     print(i)
+
+
+# from itertools import product
+
+# a = [1,2]
+# b = [3]
+# prod = product(a,b,repeat =2)#to get the product.
+# print(list(prod))
+
+# from itertools import permutations
+
+# a = [1,2,3]
+# perm = permutations(a)
+# print(list(perm))
+
+
+# from itertools import combinations,combinations_with_replacement,count,cycle,repeat
+
+# a = [1,2,3,4]
+# comb = combinations(a,2)
+# print(list(comb))
+
+# a = [1,2,3,4]
+# comb_wr = combinations_with_replacement(a,2)
+# print(list(comb_wr))
+
+
+# from itertools import accumulate
+# import operator 
+# a = [1,2,5,3,4]
+# acc = accumulate(a , func =operator.mul)
+# acc = accumulate(a , func = max)
+# print(list(acc))
+# n = []
+# for i in range(1,len(a)+1):
+#     star = sum(a[:i]) 
+#     n.append(star)
+# print(n)
+# print(sum(a[:1])+a[2])
+
+
+# from itertools import groupby
+# def smaller_than_3(x):
+#     return x<3
+# a = [1,2,3,4]
+# group_obj =groupby(a,key=smaller_than_3)
+
+# for key,value in group_obj:
+#     print(key, list(value))
+
+
+# from itertools import groupby
+# a = [1,2,3,4]
+# group_obj =groupby(a,key=lambda x: x< 3 )
+
+# for key,value in group_obj:
+#     print(key, list(value))
+
+
+# from itertools import groupby
+
+# persons = [{'name':'Tim','age':25},
+#            {'name':'Dan','age':25},
+#            {'name':'Lisa','age':27},
+#            {'name':'Claire','age':28}]
+# a = [1,2,3,4]
+# group_obj =groupby(persons,lambda x: x["age"])
+
+# for key,value in group_obj:
+#     print(key, list(value))
+
+
+# from itertools import count,cycle,repeat
+
+# for i in count(10):#print number infinitly from 10.
+#     print(i)
+#     if i == 1000:
+#         break
 
 
 
+# from itertools import count,cycle,repeat
+# a=[1,2,3]
+# for i in cycle(a):#print the same number as a cycle from 1,2,3..1,2,3...
+#     print(i)
 
+
+# from itertools import count,cycle,repeat
+# for i in repeat(1)#here number 1 repeat infinite times.
+#     print(i)
+# for i in repeat(1,4)#here number 1 repeat 4 times.
+#     print(i)
+   
+
+# lambda arguments:expression
+
+
+   
 
 
 
