@@ -1,3 +1,10 @@
+import nameko
+
+from nameko import rpc
+
+
+
+
 # An Example Webapp
 
 # 1. Client-side code(javaScript)
@@ -55,3 +62,78 @@
 #     1. Library of utilities for building and running microservices.
 #     2. CLI(command line interface) for easily running and interacting with services (nameko run/shell)
 #     3. Way of thinking about dependencies and application logic that encourages microservices approach. 
+
+
+# Nameko services
+
+# Microservices are classes with:
+#  1. a "name" attribute.
+#  2. dependency attributes
+#  3. methods with entrypoint decorators.
+
+
+# class HelloWorldService(object):
+#     name = 'hello_world_service'
+
+#     dependency = SomeDependency()
+
+#     @rpc
+#     def say_hello(self):
+#         return 'Hello world'
+# rpc - Remote Procedure Call 
+
+
+# n.rpc.hello_world_service.say_hello()
+    
+# print(HelloWorldService.say_hello())
+
+# How does the client actually call the service?
+
+# RabbitMQ
+
+# A message broker implementing the Advanced Messaging Queue Protocol(AMQP), an open messaging protocol.
+
+# Namenkolature
+
+# Entrypoint: Exposes a method,often by monitoring an external entity(e.g. a queue)
+
+# Dependencies: "Gateways" to other code, not managed by the service(other services,databases,APIs)
+
+# Workers:Instance of a service class.Dependencies are replaced with result of 'get_dependency'.
+
+# Example 1: HTTP
+
+# 1. GET and POST methods supported
+# 2. Decorators takes a method and route, with variables.
+# 3. Multiple decorators can be placed on the same method
+# 4. Build on top of Werkzeug(request/response objects)
+
+"""
+
+service-1
+
+
+"""
+
+import nameko
+
+from nameko import rpc
+
+import json
+from nameko.web.handlers import http
+
+class HttpService(object):
+    name = "multiply_service"
+    @http("GET",'/multiply/<int:first>/<int:second>')
+    def get_method(self,request,first,second):
+        third = int(request.args.get('third',1))
+        return json.dumps({'value':first*second*third})
+
+
+# Example 2: RPC 
+
+# 1. Stands for "Remote procedure call".
+# 2. Nameko implements RPC over AMQP.
+# 3. rpc decorator: exposes method.
+# 4. RpcProxy:easily inject other rpc-exposed dependency.
+# 5. ClusterRpcProxy:allows non-nameko clients to make rpc calls to a cluster.
