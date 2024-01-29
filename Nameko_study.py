@@ -35,3 +35,23 @@
 # 3. Functionality exposed over network layers(HTTP,RPC).
 # 4. Decentralized data stores(many different databases e.g.)
 # 5. Focus on services/developer/team independence.
+
+#Microservice Complexity
+
+# 1. Complexity doesn't disappear...it relocates.
+# 2. More complex with microservices:
+    
+#     a. Authentication
+#     b. Devops:Provisioning and deployment
+#     c. Speed of calls(local vs. remote)
+#     d. Managing backups
+#     e. Service discoverability.
+
+
+# Nameko 
+
+# A python framework for creating microservices.
+
+#     1. Library of utilities for building and running microservices.
+#     2. CLI(command line interface) for easily running and interacting with services (nameko run/shell)
+#     3. Way of thinking about dependencies and application logic that encourages microservices approach. 
