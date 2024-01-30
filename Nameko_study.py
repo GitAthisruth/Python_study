@@ -1,6 +1,6 @@
-# import nameko
+import nameko
 
-# from nameko import rpc
+from nameko import rpc
 
 
 
@@ -144,6 +144,7 @@ service-1
 
 # Example of rpc extension
 
+import nameko
 
 from nameko.rpc import rpc
 
