@@ -1,6 +1,6 @@
-import nameko
+# import nameko
 
-from nameko import rpc
+# from nameko import rpc
 
 
 
@@ -115,19 +115,19 @@ service-1
 
 """
 
-import nameko
+# import nameko
 
-from nameko import rpc
+# from nameko import rpc
 
-import json
-from nameko.web.handlers import http
+# import json
+# from nameko.web.handlers import http
 
-class HttpService(object):
-    name = "multiply_service"
-    @http("GET",'/multiply/<int:first>/<int:second>')
-    def get_method(self,request,first,second):
-        third = int(request.args.get('third',1))
-        return json.dumps({'value':first*second*third})
+# class HttpService(object):
+#     name = "multiply_service"
+#     @http("GET",'/multiply/<int:first>/<int:second>')
+#     def get_method(self,request,first,second):
+#         third = int(request.args.get('third',1))
+#         return json.dumps({'value':first*second*third})
 
 
 # Example 2: RPC 
@@ -137,3 +137,24 @@ class HttpService(object):
 # 3. rpc decorator: exposes method.
 # 4. RpcProxy:easily inject other rpc-exposed dependency.
 # 5. ClusterRpcProxy:allows non-nameko clients to make rpc calls to a cluster.
+
+
+
+# service_2
+
+# Example of rpc extension
+
+
+from nameko.rpc import rpc
+
+class GreeterService(object):
+    name = 'greeter_service'
+
+    @rpc
+    def greet(self,name):
+        """Return a string greeting using the passed name
+            :param name: 'str' name of person to greet
+        """
+        return u'Hello {}!'.format(name)
+    
+    # u in front of the string values means the string is a Unicode string. Unicode is a way to represent more characters than normal ASCII can manage.

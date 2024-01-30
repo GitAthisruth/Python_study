@@ -480,8 +480,287 @@
 
 # lambda arguments:expression
 
+# add10 = lambda x: x + 10
+# print(add10(10))
+# mult = lambda x,y : x+y
+# print(mult(2,7))
 
-   
+# points2D = [(1,2),(15,1),(5,-1),(10,4)]
+# points2D_sorted = sorted(points2D,key=lambda x:x[1])#here sorted according to value y.
+# print(points2D)
+# print(points2D_sorted)
+
+# points2D = [(1,2),(15,1),(5,-1),(10,4)]
+# points2D_sorted = sorted(points2D,key=lambda x:x[0]+x[1])#here sorted according to value y.
+# print(points2D)
+# print(points2D_sorted)
+
+# map(func,seq)
+
+# a = [1,2,3,4,5]
+# b = map(lambda x: x*2,a)#we do like this for a list of values.
+# print(list(b))   
+
+# c = [x*2 for x in a]
+# print(c)
+
+#filter(func,seq)
+
+# a = [1,2,3,4,5,6]
+# b = filter(lambda x: x%2==0, a)
+# print(list(b))
+# c= [i for i in a if i%2==0]
+# print(c)
+
+# a = [1,2,3,4,5,6]
+# b = map(lambda x: x%2==0, a)#here only checking it is true or false.
+# print(list(b))
+
+# from functools import reduce
+
+# reduce(func,seq)#return a single value
+
+# a = [1,2,3,4,5,6]
+
+# product_A = reduce(lambda x,y:x+y,a)
+
+# print(product_A)
+
+# print(sum(a[:len(a)+1]))
+
+# Errors and Exceptions
+
+# a = 5   print(a) #show syntax error
+
+# a = 5 + "10"
+
+# print(a)
+
+# import somemodule
+
+# a = 5
+# b = c
+
+# f = open('somefile.txt')
+
+# a = [1,2,3]
+# a.remove(4)
+# a[4]
+# print(a)
+
+# my_dict = {'name':'Max'}
+# my_dict['age']
+
+# x = -5
+# if x<0:
+#     raise Exception('x should be positive')
+
+# x = -5
+# if x<0:
+#     assert (x >= 0),'x is not positive'#to raise an assertion error
+
+# try:
+#     a = 5 /0
+# except:
+#     print('an error happened')
+
+# try:
+#     a = 5 /0
+# except Exception as e:
+#     print(e)
+
+# try:
+#     a = 5 / 0
+#     b = a + '10'
+# except ZeroDivisionError as e:
+#     print(e)
+# except TypeError as e:
+#     print(e)
+# else:
+#     print("everything is fine")
+
+
+
+
+# try:
+#     a = 5 / 0
+#     b = a + '10'
+# except ZeroDivisionError as e:
+#     print(e)
+# except TypeError as e:
+#     print(e)
+# else:
+#     print("everything is fine")
+# finally:
+#     print('cleaning up...')#The final keyword is used in try....except blocks.it defines a block of code to run when the try...except...else block is final.The finally block will be executed no matter if the try block raises an error or not.This can be useful to close objects and clean up resources.
+
+
+
+# we can create our own exception sub classes.
+
+# class ValueTooHighError(Exception):
+#     pass
+
+# def test_value(x):
+#     if x > 100:
+#         raise ValueTooHighError('value is too high')
+
+
+# test_value(101)
+
+# class ValueTooHighError(Exception):
+#     pass
+
+
+
+# def test_value(x):
+#     if x > 100:
+#         raise ValueTooHighError('value is too high')
+
+# try:
+#     test_value(101)
+# except ValueTooHighError as e:
+#     print(e)
+
+
+
+
+
+# class ValueTooHighError(Exception):
+#     pass
+
+
+
+# class ValueTooSmallError(Exception):
+#     def __init__(self,message,value,new):
+#         self.message = message
+#         self.value = value 
+#         self.new = new
+    
+
+# def test_value(x):
+#     if x > 100:
+#         raise ValueTooHighError('value is too high',x,"haha value of High")
+#     if x < 5:
+#         raise ValueTooSmallError('value is too small',x,"haha value of small")
+
+# try:
+#     test_value(1)
+# except ValueTooHighError as e:
+#     print(e)
+# except ValueTooSmallError as e:
+#     print(e.message,e.value,e.new)#here we fetching the variables of the class.
+
+
+
+# Logging
+
+# import logging
+# import helper
+
+# logging.basicConfig(level=logging.DEBUG,format='%(asctime)s - %(name)s - %(levelname)s - %(message)s ',
+                    # datefmt='%m/%d/%Y %H:%M:%S')
+# logging.debug('This is a debug message')
+# logging.info('This is an info message')
+# logging.warning('This is a warning message')
+# logging.error('This is an error message')
+# logging.critical('This is a critical message')
+
+
+
+# import logging
+# logging.basicConfig(level=logging.DEBUG,format='%(asctime)s - %(name)s - %(levelname)s - %(message)s ',
+#                     datefmt='%m/%d/%Y %H:%M:%S')
+# import helper
+
+
+# import logging
+
+# logger = logging.getLogger(__name__)
+
+# #create handler 
+
+# stream_handler = logging.StreamHandler()
+# file_handler = logging.FileHandler('file.log')
+
+# #level and the format
+# stream_handler.setLevel(logging.WARNING)
+# file_handler.setLevel(logging.ERROR)
+
+# formatter = logging.Formatter('%(name)s - %(levelname)s - %(message)s')
+# stream_handler.setFormatter(formatter)
+# file_handler.setFormatter(formatter)
+
+# logger.addHandler(stream_handler)
+# logger.addHandler(file_handler)
+
+# logger.warning('this is a warning')
+# logger.error('this is an error')
+
+
+# import logging
+# import logging.config
+
+# logging.config.fileConfig('logging.conf')
+
+# logger = logging.getLogger('simpleExample')
+# logger.debug('this is a debug message')
+
+
+# import logging 
+
+# try:
+#     a=[1,2,3]
+#     val=a[4]
+# except IndexError as e:
+#     logging.error(e,exc_info=True)
+
+
+
+# import logging 
+# import traceback
+
+# try:
+#     a=[1,2,3]
+#     val=a[4]
+# except IndexError as e:
+#     logging.error("The error is %s",traceback.format_exc())
+
+
+# import logging
+# from logging.handlers import RotatingFileHandler
+
+# logger = logging.getLogger(__name__)
+# logger.setLevel(logging.INFO)
+
+# #roll over after 2kb, and keep backup logs app.log.1, app.log.2 , etc.
+# handler = RotatingFileHandler('app.log',maxBytes=2000,backupCount=5)
+# logger.addHandler(handler)
+
+# for _ in range(10000):
+#     logger.info('Hello, world!')
+
+
+# import logging
+# import time
+# from logging.handlers import TimedRotatingFileHandler
+
+# logger = logging.getLogger(__name__)
+# logger.setLevel(logging.INFO)
+
+# # s,m,h,d,midnight,w0 -monday ,w1-tuesday
+# #roll over after 2kb, and keep backup logs app.log.1, app.log.2 , etc.
+# handler = TimedRotatingFileHandler('timed_test.log',when='s',interval=5,backupCount=5)
+# logger.addHandler(handler)
+
+# for _ in range(10000):
+#     logger.info('Hello, world!')
+#     time.sleep(5)#each file created after 5 seconds
+
+
+
+# json
+
 
 
 
