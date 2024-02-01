@@ -1,0 +1,6 @@
+Rabbitmq -s settings
+
+open url link - localhost/15672 
+
+Open rabbitmq command prompt type - rabbitmq-plugins enable rabbitmq_management
+
