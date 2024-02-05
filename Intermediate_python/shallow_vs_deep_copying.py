@@ -3,12 +3,12 @@
 
 
 #In mutable types not work like this way.
-# org = 5
-# cpy = org
-# cpy = 6
+org = 5
+cpy = org
+cpy = 6
 
-# print(cpy)
-# print(org)
+print(cpy)
+print(org)
 
 
 
