@@ -40,7 +40,7 @@
 # smtp.quit()
 
 
-email = {'members': [{'email': 'athisruthmsatheesh98@gmail.com', 'name': 'Athisruth M Satheesh', 'userType': 'User'}]}
+# email = {'members': [{'email': 'athisruthmsatheesh98@gmail.com', 'name': 'Athisruth M Satheesh', 'userType': 'User'}]}
 
-print(email)
-print(email['members'][0]['email'])
+# print(email)
+# print(email['members'][0]['email'])

@@ -1,0 +1,510 @@
+Statistics 
+
+- It is the study of how to collect, organize, analyze, and interpret numerical information and data.
+- It is both the science of uncertainty and the technology of extracting information from data.
+
+- It is used to help us make decisions. This is especially important in health care and public health.
+
+
+
+Example:CDC & the Flu Vaccine
+
+- During the year, the United States Centers for Disease Control and Prevention (CDC) collects,organizes,analyzes, and interprets numerical information and data.
+
+- They extract information from the data and make decisions about what to include in next year's flu vaccine.
+
+
+Individuals & Variables
+
+Meaning Outside statistics
+
+- Individuals are people.
+    - We expect 50 individuals at the graduation.
+- A variable is a factor that can vary, possible causing a problem.
+
+    - The time the shop takes with my car is an unknown variable,and i cannot predict it.
+
+eg:time
+
+Meaning in Statistics
+
+- Individuals are people or objects included in a study.
+    - 5 individuals could be 5 people,
+      5 records, or 5 reports.
+
+- A variable is a characteristic of the individual to be measured or observed.
+
+    - The age of an individual person.
+    - The time an individual record was entered.
+    - The diagnosis listed on an individual report.
+
+
+A Few Examples
+
+Individual                               Variables
+
+-Baby born to a mother who              -Birthweight
+ smokes cigarettes.
+-Urban city                             -Rate of overdose deaths
+
+
+
+Concepts in Statistics
+
+- Statistics is used in healthcare and other disciplines to help aid in decision-making.
+- Understanding statistics is necessary to understand certain processes in healthcare.
+
+
+Population Parameter and Sample Statistic
+
+
+Parameters vs. Statistics
+
+ - What is a population and and what is a sample?
+ - Difference between population and sample data
+ - Population parameters and sample statistics
+ - Examples of parameters and statistics 
+
+
+ What is a Population?
+
+ Definition
+
+ - A population is a group of people or objects with a common theme.
+
+ - When every member of that group is considered, it is a population.
+
+
+ Example
+
+ - Theme: Nurses who work at ABC General Hospital(MGH)
+ - Population: List from Human Resources of every currently employed nurse at MGH. 
+
+ What is a Sample?
+
+ Definition
+
+ - A sample is a small portion of the population.
+
+ - It can be a representative sample.
+
+ - But it can also be a biased sample.
+
+
+ Example 
+
+ - Only survey ICU nurses at ABC MGH.
+     Not a representative sample
+ - At least one nurse from each department.
+    - More representative sample.
+
+
+Population vs Sample data
+
+Population data
+
+- In Population data, data from every individual in the population is available.
+
+- Entire population = census.
+
+
+Sample data
+
+- In sample data, data is only available from some of the individuals in the population.
+- Very commonly used in research studies of patients. 
+
+
+Examples of Population Data
+
+- Medicare(people age 65 and above are in medicare) Claims Dataset 
+    - has all the insurance claims filed by Medicare population.
+
+- United States Census  (conducted every 10 years)
+
+
+Examples of Sample Data
+
+
+- The Medicare Beneficiary Survey(MBS) is a survey of a sample of individuals on Medicare.
+- American Community Survey(ACS) conducted yearly by the United States Census Bureau.
+
+
+
+Statistical Notation
+
+
+Total Population - N 
+
+Sample of Population - n
+
+
+Parameter vs. Statistic
+
+A parameter is a measure that describes the entire population.
+
+A statistic is a measure that describes only a sample of a population.
+
+
+Examples of Parameters & Statistics
+
+Parameter                                      Statistics
+                                                
+-Mean age of every American on                 - Mean age of Americans on Medicare estimated using the MBS
+ Medicare
+
+-The proportion of Americans addicted to       - The proportion of Americans in the Behavioral Risk Factor Surveillance Survey (BRFSS) who admit they are addicted to cigarettes.
+ cigarettes
+
+-Actual voter turnout                          - The proportion of people in opinion polls who say they plan to vote.
+
+
+
+
+Don't Get Confused!
+
+- When you hear a number on the televisionor radio - do they mention if it is a population parameter or a sample statistic?
+- Clues that the number is a population parameter:
+  - A dataset was used that encompasses the entire population (like Medicare)
+  - Analyses were done by the government or on behalf of the government.
+
+- Clues that number is about a sample statistic:
+  - It was from a study recruiting volunteers
+  - The report mentions only surveying or measuring a sample of individuals. 
+
+Parameter-Anything that we measure from a population is called parameter.
+
+Statistic-Anything that we measure from a sample is called statistic.
+
+
+
+
+Describing vs. Inferring
+
+Descriptive statistics
+- Descriptive statistics involve methods of organizing , picturing, and summarizing information from samples and populations.
+
+Inferential statistics
+- Inferential statistics involves methods of using information from a sample to draw conclusions regarding the population.
+- Can only used with sample data
+
+Parameters vs. Statistics
+
+- In statistics, it is important to properly identify measures as population parameters or sample statistics.
+
+- Different types of data are used for parameters and statistics.
+
+
+
+Classifying Levels of Measurement(Four-level system)
+
+
+Classifying Variables 
+
+ - Quantitative vs. qualitative(categorical) data
+
+    - Interval vs. ratio data
+    - Nominal vs. ordinal data
+
+ -  Examples of how to classify healthcare data
+
+
+Four-level Data Classification
+
+ (Human Research Data)
+
+Quantitative(Continuous)  vs     Qualitative(categorical)
+
+
+Quantitative(Continuous)
+
+ - Quantitative is a numerical measurement of something.eg:temperature
+
+ Examples of Quantitative Variables in Healthcare:
+
+  - Time of admit
+
+  - Year of diagnosis
+
+  - Systolic blood pressure(SBP)
+
+  - Platelet count
+
+We can split  Quantitative data into:
+ - Interval vs. Ratio 
+
+
+ Interval 
+
+ - Quantitative(continuous) data
+    -Differences between data values are meaningful.
+
+    - There is no true zero.
+      - Interval = there is no true zero.
+        - "Time" cannot have a true zero
+            - Time of admit = 8:09 
+            - Year of diagnosis = 1999
+
+ Ratio 
+
+  - Quantitative(continuous) data
+
+  - Differences between data values are meaningful
+
+  - There is a true zero. 
+
+    - Ratio = there is a true zero.
+        - if you are dead, you have a SBP(Systolic blood pressure) = 0
+        - Same is true with platelet count
+
+
+
+
+
+
+
+Qualitative(categorical)
+
+- Qualitative refers to a "quality" or categorical characteristics of something eg:gender.
+
+ Examples of Qualitative Variables in Healthcare:
+
+  - Type of health insurance
+
+  - Country of origin 
+
+  - Stage of cancer
+
+  - Trauma center level
+
+   - Nominal = Cannot be ordered 
+
+   - Ordinal = natural order 
+     - Differences between levels is meaningless
+
+We can split  Qualitative data into:
+ - Nominal vs. ordinal
+
+
+ Nominal 
+
+  - Nominal applies to categories,labels or names, and cannot be ordered from smallest to largest.
+
+   eg: country ,gender , race, hair color
+
+Ordinal
+
+  - Ordinal applies to data that can be arranged in order in categories,
+
+    - but the difference between data values cannot be determined, or is meaningless.
+
+    eg: ordinal data includes having a position in class as "First" or "Second".
+
+
+
+Classifying Variables
+
+ - All data can be classified as quantitative(continuous) or qualitative(categorical).
+
+ - Data can be further classified as interval,ratio,nominal, or ordinal.
+
+ - It is important to know how to classify data in healthcare.
+
+
+
+Sampling 
+
+
+Sampling Definition
+
+Concepts in Sampling
+
+ - What is a "sample"?
+
+ - Sampling frames, and errors in representing sampling frames.
+
+ - Summary of definitions presented.
+   
+
+Sampling and Samples 
+
+ - We take a sample of the population because we want to do "inferential statistics"
+    - We want to infer from the sample to the population.
+
+ - Reasons not to measure the whole population
+    - Impractical 
+    - Unnecessary
+
+
+Sampling Frames
+
+ - List of individuals from which a sample is actually selected.
+
+ - "List" may be a physical,concrete listed
+    - List of students enrolled at a nursing college
+
+ - May be a theoretical list not made up yet
+    - List of patients who will present to the Emergency Department today.
+
+
+ - Sampling frame is the part of the population from which you want to draw a sample.
+
+Therefore, you want everyone from your sampling frame to have a chance of being selected for your sample.
+
+
+
+Undercoverage
+
+What is it?
+
+ - Omitting population members from the sampling frame(list of members in population used for sampling).
+
+How can it happen?
+
+ - List of nursing students may not include everyone for administrative reasons.
+
+ - People who present to the Emergency Department at night might be different than those in the day.
+
+
+
+Errors in Statistics
+
+Fact-of-Life Error
+
+ - Sampling errors
+
+    - The population mean will probably be different from your sample mean.
+
+    - The population percentage will probably be different from your sample percentage.
+
+
+Cause of Error
+
+ - Sampling error - caused by the fact that, regardless of what you do, your sample will not perfectly represent the population.
+
+
+Error you want to Avoid
+
+ - Non-sampling error
+    - Using a bad list.
+    - Make sure that you pay careful attention that everyone in the population who is supposed to be represented in your sampling frame is in there!
+
+Cause of Error
+ - Non-sampling error - caused by poor sample design, sloppy data collection, inaccurate measurement instruments, bias in data collection, other problems introduced by the researcher.
+
+
+Simulation
+
+ - A simulation is defined as a "numerical facsimile or representation of a real-world phenomenon."
+
+ - It is a essentially working through a pretend situation to see how it would come out in the case it was real. 
+
+
+Concepts in Sampling 
+
+ - it is important to do your best to avoid non-sampling error
+
+ - This is achieved by making sure you do not have undercoverage when sampling from your sampling frame.
+
+
+Simple Random Sampling
+
+Definition 
+
+ - "A simple random sample of n measurements from a population is a subset of the population selected in such a manner that every sample of size n from the population has an equal chance of being selected".
+
+Example
+
+ - You have a list of the population of students in a class.
+
+ - You want to take a sample of 5 (n=5).
+
+ -  If you take a simple random sample (SRS) from the class list, it means all the different possible  groups of 5 students you could pick from the list has an equal chance of being the sample (group) you actually pick.
+
+
+
+One method of SRS
+
+
+ - Number all of the individuals in the population with a unique number.
+    - Like student ID number
+
+ - Put all the student ID numbers in a place from which you can draw randomly without looking(like a hat)
+
+ - Draw 5 ID's and use those students as your sample.
+
+
+Another method of SRS
+
+    - Generate a list of random numbers as long as the list of the population.
+
+    - Randomly assign these numbers to the population in the list.
+
+    - Take the first 5 numbers(whoever gets assign 1 through 5).
+
+
+SRS Means Equal Chance of Being selected
+
+ - First method: old-fashioned "hat"
+ - Second method: Electronic "hat"
+ - In both methods, all members of the population had an equal probability of being selected into the sample.
+
+
+Limits of Simple Random Sampling
+
+  - You need a list
+    - You don't know who will present at the Emergency Department that day, how do you sample?
+    - Okay when a list is available.
+
+  - You need a good list
+
+    - Otherwise, you risk undercoverage
+    - What if part-time  students were not on the list?
+    - Non-sampling error
+
+
+
+Stratified Sampling 
+
+
+What is Stratified Sampling?
+
+ - First, the list is divided into groups, or strata.
+
+ - This is a way to make it so that there are certain proportions of groups in the final sample.
+
+ - Next,simple random sampling(SRS) takes place for each of the strate.
+
+
+
+Steps in Stratified Sampling
+
+ - Divide entire population into distinct subgroups called strata.
+ - The strata are based on a specific characteristic, such as age, income,education level, and so on.
+ - All members of a stratum share this specific characteristic.
+ - Draw an SRS from each stratum. 
+
+
+Examples of Stratified Sampling
+
+ - In a high school, sampling so many students from each of the grades(freshman,sophomore,junior,senior)
+
+ - In hospitals, sampling so many patients or providers from department(different intensive care units).
+
+
+Limitations of Stratified  Sampling
+
+ - Oversampling one group(strata) means your summary statistic is unbalanced.
+
+ - It is not possible to do without a list beforehand(like with SRS).
+
+ - It is also hard because you have to split the list into groups("strata") then SRS from strata.
+
+
+Stratified Sampling 
+
+ - Stratified = taken from groups.
+ - Several steps are involved.
+ - Useful if necessary to make all strata equal, or to sample from groups that are small in the large population.
+
+
+Systematic Sampling
