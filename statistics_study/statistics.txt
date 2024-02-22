@@ -1,4 +1,4 @@
-Statistics 
+Statistics (link:https://www.youtube.com/watch?v=xxpc-HPKN28)
 
 - It is the study of how to collect, organize, analyze, and interpret numerical information and data.
 - It is both the science of uncertainty and the technology of extracting information from data.
@@ -508,3 +508,1487 @@ Stratified Sampling
 
 
 Systematic Sampling
+
+
+ - Systematic sampling can be done with or without a list.
+
+ - Systematic sampling is best described through the steps one takes to do it.
+
+ - Just pick a random starting point, then pick every kth individual.
+ 
+
+
+Steps in Systematic Sampling
+
+1. Arrange all individuals of the population in a particular order.
+
+2. Pick a random individual as a start.
+
+3. Then take every kth member of the population in the sample.
+
+    -"kth" means "every so many".
+
+
+Examples of Systematic Sampling from a List
+
+ - Take out a list of classes available next semester.
+
+ - Pick arandom number that is small - like 3. Go to the third class.
+
+ - Pick another random number - like 5. Pick every 5th class after that.
+
+
+Characteristics of Systematic Sampling
+
+ - You cannot do this when there is a pattern to the data (boy/girl/boy/girl).
+ - You can do systematic sampling in a clinical setting, where you do not know who is going to come in that day.
+
+
+
+Cluster Sampling
+
+ - Cluster sampling is used when geography is important in sampling.
+
+ - The map is divided into areas, and all the people in a particular area are sampled.
+
+ - Biased toward type of people living in the area.
+
+
+
+Why use Cluster Sampling?
+
+ - The problem is localized to a particular location.
+
+ - In cluster sampling, we begin by dividing the map in geographical areas.
+
+ - Then we randomly pick clusters, or areas, from the map. We take all the people in the cluster. 
+
+
+Problems with cluster Sampling
+
+ - Sometimes, the people located in a cluster are all similar in a way that makes the problem hard to study.
+
+ - If cancer rates are high all over the clusters, it's hard to see if a geographical location is causing higher rates.
+
+
+
+Convenience & Multi-Stage Sampling
+
+ - Avoid using convenience sampling unless the question is low risk.
+
+ - Use if the only type of sampling possible under the circumstances.
+
+ - Also used when resources are low.
+
+ - Multi-stage sampling usually used in large, governmental studies.
+
+ 
+
+Convenience Sampling
+
+  - Convenience sampling can be used under low risk circumstances.
+
+  - What ice cream is the best from the restaurant next to the hospital?
+
+  - However, often results are not reliable.
+
+
+
+What is Convenience Sampling?
+
+ - Using results or data that are conveniently or readily obtained.
+
+ - Can be useful if not a lot of resources allocated to the study.
+
+ - Use an already-assembled group for surveys.
+
+ - Ask patients in the waiting room to fill out a survey,or students in a class.
+
+
+What are the Problems with Convenience Sampling?
+
+ - There is a bias in every group.
+ - Often miss important subpopulations(what stratified sampling addresses).
+ - Results can be severely biased.
+
+
+Multi-stage Sampling
+
+ - Combination of sampling strategies layered in stages.
+
+   - Example:
+      - Stage 1: Cluster sample of states(two census regions).
+      - Stage 2:Simple random sample of counties(from each state).
+      - Stage 3:Stratified sample of schools(urban/rural).
+      - Stage 4:Stratified sample of classrooms.
+
+
+Introduction to Experimental design
+
+Learning Objectives
+
+At the end of this lecture,the student should be able to:
+ - State the steps of conducting a statistical study.
+ - Select one step of developing a statistical study, and state the reason for this step.
+ - Name one common mistake that can introduce bias into a survey,and give an example.
+ - Explain what a lurking variable is, and give an example.
+ - Define what a completely randomized experiment is. 
+
+
+Introduction
+
+ - Steps to Conducting Statistical Study.
+ - Basic Terms & definitions
+ - Avoiding Bias in Survey Design
+ - Topics in Randomization.
+
+
+
+Basic Terms & Definitions
+
+ 
+Basic Guidelines for Planning a Statistical Study
+
+1. State a hypothesis.
+2. Identify the individuals of interest.
+3. Specify the variables to measure.
+4. Determine if you will use the entire population or a sample.
+   -if you choose a sample, choose a sampling method
+5. Address ethical concerns before data collection.
+6. Collect the data.
+7. Use descriptive or inferential statistics to answer your hypothesis.
+8. Note any concerns about your data collection or analysis.
+   - Make recommendations for future studies.
+
+
+
+Hypothesis & Variables
+
+ - Hypothesis: Air pollution causes asthma in children who live in urban setting.
+ - Individuals: Children in urban settings
+ - Variables: Air pollution and asthma.
+
+
+Sampling,Ethics & Data collection
+
+  - Either collect data or use existing dataset
+     - Can use a government dataset for population measures.
+  - Can collect data from a sample for estimates
+     - Need to choose sampling approach
+     - Will need consent if legally found to be "human research"
+     - May need consent from parents to collect data about children. 
+
+
+Census vs. Sample
+
+In a census, measurements or observations from the entire population are used.
+
+In a sample,measurements or observations from part of the population are used.
+
+
+
+Experiment vs. Observational Study
+
+Experiment
+  - A treatment or intervention is deliberately assigned to the individuals.
+  - The purpose is to study the possible effect of the treatment or intervention on the variables measured.
+
+Observational Study
+
+ - Observations and measurements of individuals are taken.
+ - However, no treatment or intervention is assigned by the researcher.
+
+
+Replication
+
+ - Studies must be done rigorously enough to be replicated.
+ - Replicating the results of observational studies and experiments is necessary for science to progress.
+
+ 
+Avoiding Bias in Survey Describing
+
+Bias
+
+ - Surveys can provide a lot of useful information.
+ - However,it is important that all aspects of survey design and administration minimize "bias"
+ - Several considerations should be made.
+
+
+
+Non-response & Voluntary response
+
+ - If many people refuse your survey, the people who do complete it are likely to have a biased opinion.
+ - There may be a reason they do not complete your survey that has to do with how they feel about your survey topic.
+
+
+
+Truthfulness of Response
+
+ - Respondents may lie on purpose
+    - if asked a question that is too personal
+    - if asked a question too hard to think about
+ - Respondents may lie inadvertently
+    - May not remember if asking about something that happened a long time ago
+ - May have "recall bias" influenced by events that have happened since original event.
+
+
+Hidden Bias
+
+ - Question wording may induce a certain response.
+    - How long have you been using software A?
+ - Order of questions and other wording may induce a certain response.
+    - Do you agree with Obamacare?
+    - More people have health insurance than ever before. Do you agree with Obamacare?
+ - Scales of questions may not accurately measure responses
+    - Do your feelings always fit on a scale 1 to 5?
+
+Interviewer Influence 
+
+  - This is important with in person and phone surveys.
+  - Best to have interviewer from same population as research participant.
+  - All verbal and non-verbal influences matter.
+
+Vague wording
+
+ - Avoid vague terms used in a survey.
+    - Instead of asking if a person waited "a long time" in the waiting room,ask the number of minutes.
+ - If you must  use vague terms, include grounding language.
+    - Where 10 is extremely important, and 1 is not at all important, how important is having a controllable lifestyle to you in your future career?A controllable lifestyle is defined as one that allows the physician to control the number of hours devoted to practicing his/her specialty.
+
+
+Lurking Variable
+
+ - "Lurk" means to sneak around behind the scenes.
+ - A "lurking variable" is a variable that is associated with a condition,but may not cause that condition.
+ - For example, we know that having more education increases income. However, people of the same education  level do not all make the same income.
+ - Lurking variables are sex and race. In the US, according to the Department of Labor, these variables can decrease a person's income at the same level of education.
+
+
+Randomization
+
+
+Why Randomize?
+
+- Randomization is used to assign individuals to treatment groups.
+
+- This helps prevent bias in selecting members for each group.
+   -It distributes "lurking variables" evenly
+
+
+A Completely Randomized Experiment
+
+   -Recruit sample --> Measure confounders,
+                        outcome
+
+
+Blocked Randomization
+
+ - If you want men and women equal in two randomized groups, create "blocks" with two slots - one for a man, and one for a woman.
+
+ - As people come in and enroll in the study and you measure them, assign them to blocks.
+
+ - Then, randomize the blocks. You will get a paired couples in each group!
+
+Blinding 
+
+ - Blinding is where a person (participant,research staff) is deliberately not told of a treatment assignment in a study so s/he is not biased in reporting study information.
+      - Example: A participant is blinded to treatment or placebo.
+      - Example: A study radiologist may be blinded to treatment group when looking at images during study procedures.
+
+- Double-blind means study staff  and participant do not know treatment assignment.
+
+
+Randomization & Bias
+
+ - Randomization  is used  to reduce bias in an experiment.
+
+ - Blocked randomization can even out groups.
+
+ - Blinding further prevents bias.
+
+ - The placebo effect is necessary to take into account.
+
+
+
+Frequency Histograms & Distributions
+
+
+
+Frequency Histograms
+
+ - It's a specific type of bar chart made from data in a frequency table.
+ - Frequency histograms and relative frequency histograms.
+ - The purpose of the chart is to identify the "distribution" of the data.
+
+
+Steps to Follow to Draw a Frequency Histograms
+
+1. Make a frequency table.
+2. Draw a vertical line for the y-axis. 
+3. Write "Frequency of ____" along the y-axis.
+4. Draw a horizontal line for the x-axis.
+5.Write the classes below the x-axis and label them.
+6. For the first class, find the frequency in the table. Look for it on the y-axis and draw a horozontal line.
+7. Draw two vertical lines down to make a bar.
+8. Repeat for all the other classes.
+9. Color in the bars.
+
+
+Relative Frequency Histogram
+
+ - In the relative frequency histogram, the relative frequency goes on the y-axis.
+ - The chart looks takes on a similar pattern.
+ - Relative frequency better for comparing two populations or two samples.
+
+ relative frequency = frequency/total no. of observations
+
+
+
+- After making a frequency table, it is important to also make a frequency histogram and/or a relative frequency histogram.
+- These are used to reveal the "distribution" in the data.
+
+
+Distributions
+
+ - It is the shape that is made if you draw a line along the edges of a histogram's bars.
+ - A stem-and-leaf of the same data will make the same shape on its side.
+
+
+5 Main Types of Distributions
+
+1. Normal distribution(also called mount-shaped symmetrical)
+2. Uniform distribution 
+3. Skewed left distribution - left is small
+4. Skewed right distribution -right is small
+5. Bimodal distribution - two clearly seperate groups are visible in a histogram.It has two modes or two distict clusters of data.
+
+
+
+Outliers 
+
+ - Outliers are data values that are "very different" from other measurements in the dataset.
+
+
+
+Cumulative Frequency
+
+ - In "cumulative frequency" , you add up all the classes before the class you are on.
+ - The first class is always the same as the frequency.
+ - Each cumulative frequency is equal to or higher than the last one.
+ 
+
+
+ Chart of Cumulative Frequency: Ogive
+
+  - Classes along the x axis, and cumulative frequency along the y-axis.
+  - Because cumulative frequency goes up from class to class , the Ogive line always goes up to the top frequency.
+
+
+
+
+Time Series Graphs
+
+ - Time series data are made of measurements for the same variable for the same individual taken at intervals over a period of time.
+ - Stock market prices
+ - Yearly rates of diseases such as influenza. 
+
+
+How to plot a Time-Series Graph
+
+1. Get time series data: one measurement per time period(month,year,etc.).
+2. Draw a horizontal line for the x-axis. Label the time periods.
+3. Draw a vertical line for the y-axis. Make sure it is tall enough for the highest data value. Label it.
+4. Looking at your data, the x-axis, and the y-axis, put dots in where the data points are.
+5. Connect the dots.
+6. You can have more than one line on the graph for more than one set of data values,
+but this requires a legend. 
+
+
+- Time series graphs are useful for understanding trends over time.
+- Graphing more than one set of time series data on one graph can help in comparing the differences between the data sets. 
+
+
+Bar Graph
+
+Features of a Bar Graph
+
+1. Bars can be vertical or horizontal.
+2. Are of uniform width and of uniform spacing.
+3. Length of bars represent variables's frequency or percentage of occurence.
+4. Same measurement scale used for each bar.
+5. Includes title, bar labels, and scale labels on axis or actual values for each bar.
+
+
+
+Bar Graph vs. Histogram: What's the Difference?
+
+ - The frequency histogram and relative frequency histogram are "special cases" of a bar graph.
+ - They are bar graphs that:
+    - Must have classes of a quantitative variable on the x-axis.
+    - Must have frequency or relative frequency on the y-axis.
+
+
+Warning About Changing  the Scale 
+
+ - Notice on the right side of the slide that the top number on the y-axis is 35.0.
+ - The highest value we have is 29.1.
+ - See what happens when we change the y-axis to having a maximum of 30.0 instead of 35.0.
+
+ - With a taller y-axis, the differences between bars looks less dramatic.
+ - Clustered means more than one bar is graphed for each category.
+ - Also,look for the begining of the scale. Some do not start at zero, and then the bars do not start at zero.
+ - Look for the squiggle.
+
+
+
+Pareto Chart
+
+ - The height of the bar indicates the frequency of an event.
+ - Arranged left to right according to decreasing height.
+ - Meant to graph frequencies of "problems"
+ - Used more in engineering than in healthcare.
+
+
+
+
+Bar Graph Summary 
+
+ - Bar graphs must be made following a few rules.
+ - Can be very helpful for visualizing and comparing quantitative and qualitative data.
+ - Scales are important in bar graphs!
+ - Pareto charts(graphs) not used much in healthcare.
+
+
+Pie charts
+
+ - Pie chart(also circle graph) used with counts of "mutually exclusive" frequencies.mutually exclusive-happens one result at a time.eg:head or tail.
+ - Often made in graphing programs because difficult to do by hand.
+ - Very common in healthcare.
+
+ Features of a Pie Chart
+
+  - Every individual must be put in only one category.
+  - Can be quanlitative or quantitative variable.
+  - If quantitative(continuous), put in classes and then graphed.
+
+
+A Few Note on Pie Charts
+
+ - Must be mutually exclusive categories.
+   - "Favorite" color vs. "check the colors you like"
+ - More informative to put % than frequency, but it is helpful to do both.
+ - Always include title and legend. 
+
+
+On All Graphs 
+
+ - Provide a title
+ - Label axes
+ - Identify units of measure
+ - Make the graph as clear as possible(think of font size,number of items graphed).
+
+
+
+
+Choosing the Right Kind of Graph
+
+Type of Graph                          Cases Where Graph is Useful
+
+- Frequency Histogram                 - For quantitative data, when you want to see the distribution.
+- Relative Frequency                  - For quantitative data, when you want to see the distribution.
+  Histogram                             Also,good for comparing to other data.
+- Stem-and-leaf Display               - For quantitative data,when you want to see the distribution.
+                                        Easier to make by hand than histogram.
+- Time series graph                   - For graphing a variable that changes over time and is measured at regular intervals.
+- Bar graph                           - For quantitative or qualitative data, and for displaying frequency or percentage.
+- Pareto chart                        - For frequencies of rare events in descending order.
+- Pie Graph                           - For mutually-exclusive categories (quanlitative or quantitative).
+
+
+
+
+
+
+Frequency Tables and Stem-and-leaf Displays
+
+
+
+How to Organize All thess Numbers?
+
+ - 60 patients were studied for the distance they needed to be transported in an ambulance.
+ - The shortest transport(minimum) was 1 mile.
+ - The longest transport(maximum) was 47 miles.
+ - It's hard to just look at a pile of numbers...how do we understand these data?  
+
+
+
+A Few Definition
+ - Class: An interval in the data.
+   - Example: Between 30 and 40 miles. 
+
+ - Class limit: The lowest and highest value that can fit in a class.
+   - Example: 30 would be the lower class limit,and 40 would be the upper class limit.
+
+ - Class width: How wide the class is.
+   - Example: Upper class limit (40) minus lower class limit (30) = 10,then add 1 = 11.
+   - Example: 30,31,32,33,34,35,36,37,38,39,40 = (40-30+1)11 numbers 
+
+
+ - Frequency: How many values from the data fall in the class.
+   - Example: How many patients were transported 30 to 40 miles.
+
+
+Decide on classes
+
+ - Classes should be the same width
+ - Class width can be determined empirically
+   - Example: Age 18-24, 24-34, 35-44, 45-54, 55-64, 65 and older
+ - Should be based on the scientific literature.
+
+
+Class Width Formula
+
+Formula                               Example
+ - Calculate this number:              - From the miles, 47 - 1 = 46 
+   maximum - minimum                   - If we want 6 classes,46/6 = 7.7
+ - Divide this by the number           - We increase this up to 8.
+   of classes desired.
+ - Increase this to the next whole
+   number.  
+
+
+Simple Frequency table
+
+ - A frequency table displays each class along with the frequency(number of data points) in each class.
+ - Selecting arbitrary class limits can make the frequency table unbalanced.
+ - But not following the scientific literature can make your results non-comparable
+
+
+Example for Frequency Table
+
+Data collection
+- Glucose is measured in the blood and expressed in mg/100 ml.
+- Glucose is a big molecule that should be cleared from the blood,especially if fasting.
+- Blood glucose levels for a random sample of 70 women were recorded after a 12-hour fast. 
+
+
+Be Careful!
+
+- Make sure that all the data points are accounted for only  once in one of the classes.
+- Make sure the classes cover all the data.
+- Make sure the total of your classes adds up to the total data points!
+
+
+
+Relative Frequency Table
+
+- "Relative" = in relationship to the rest of the data.
+- Frequency = f
+- Total sample size = n
+- Relative frequency = f/n
+- Relative frequency is the proportion of the values that are in that class.
+- Relative frequency is something very useful to put in a frequency table.
+- It is easy to calculate - take each class frequency divided by total.
+
+
+
+Frequency Tables
+
+- Frequency tables are necessary for organizing quantitative data.
+- Class width must be selected, and lower and upper class limits determined.
+- Frequencies are then filled in.
+- You can also include relative frequencies.
+
+
+
+Stem-and-leaf
+
+- In a stem and leaf, there is always a "stem"
+- Leaves are then added to the stem as we tally up the length of the leaves.
+- Making one will help  you understand the terminology.
+- A stem and leaf is another way to organize quantitative data.
+- A stem and leaf is easier to make than a frequency table and requires less preparation.
+- Can help you put data in order to create a frequency table.
+
+Example: Days since Referral
+
+- Data from 42 patients who visited a primary care clinic and were referred to mental health wer collected.
+- The number of days between the referral and their first mental health appointment was collected.
+
+
+
+Building the Stem and Leaf
+
+
+
+
+Organizing Quantitative Data
+
+Frequency Table                                   Stem and Leaf
+
+1. Need to set up classes,class widths            1. Do not need to set up classes or class widths
+2. Need to count frequencies in each              2. No need to count. Can tally the data as you go through the list.
+   class 
+3. Lots of pre-calculations                       3. Quicker to do.
+
+
+Good Idea!
+
+- Leaf is "unordered" if numbers out of order.
+- After making unordered version,order the leaves.
+- Then it is easier to count them up for your frequency table-no matter what classes
+- Or, make each "leaf" a "class".
+
+
+
+Measures of Central Tendency
+
+
+Central Tendency
+
+- How much does the data have a tendency to go to the center?
+- Can only be asked about quantitative data.
+- Remember the distributions?
+
+
+Measures of Central Tendency
+
+- Modes
+- Median
+   - With odd number of values
+   - With even number of values
+- Mean
+   - Trimmed mean
+   - Weighted average 
+
+
+Mode
+
+- The value that occurs most frequently in the dataset is the mode.eg(1,2,3,4,5,5),mode-5
+- It is possible to have no mode.eg(1,2,3,4,5,6),mode - no mode
+- It is possible to have more than one mode.eg(1,2,3,4,5,5,2),mode - mode -2,5
+- Can get confusing with a lot of numbers in a  short range - which is most numerous?
+- Less confusing when scale is large
+   - Systolic blood pressure
+   - Platelet count
+
+
+
+What Does the Mode Tell you?
+
+- Not much
+- The most "popular" answer
+- The most common result
+- Not used a lot in healthcare.
+
+
+
+Median
+
+- Median is the Center of the Data
+- Every set of quantitative data can be sorted in order of lowest to highest.
+- Sometimes there are repeats in the data.
+- Sometimes there are outliers.
+- Sometimes all the data values are almost the same.
+- Even so,they can be arranged in order.
+- The "median" is the number that is halfway. 
+
+
+How to Find the Median
+1. Order the data from smallest to largest
+2. If there is an odd number of values, the median is the middle data value.
+3. If there is an even number of values, the median is the sum of the middle two values divided by 2.
+
+
+How to Find the Middle Number
+
+- After arranging the values in order,you have an "ordered set".
+- If there are an odd number of values(n) take n+1, and divide by 2.
+  Count up that many, and that is the median.
+- If there are an even number of values(n) take n+1, and divide by 2.
+  The number will end in something 0.5. Sum numbers on either side of that position and divide by 2. 
+
+
+What Does the Median Tell You?
+
+- The 50th percentile of the data.
+- The middle rank of the data.
+- The median doesn't care much about the ends of the data. Outliers don't bother it.
+- It is resistant. It is stable.
+
+
+Mean,Trimmed Mean & Weighted average
+
+
+
+Greek Letter Capital Sigma
+
+- Whenever you see this, say in your head, "Sum of___"
+- Sigma(x) is pronounced, "Sum of x"
+- x's are the values in your data.
+- Means "add up all the x's
+- Another example:
+   - sigma(xy)
+   - "Sum of xy".
+   - Means you must have a bunch of xy's and need to add them up.
+- Sigma used a lot in statistics.
+
+
+Formula for Mean
+- sigma(x) = add up all the x's.
+- n = number of values in your data.
+- After summing up all the x's, you divide by n.(sum(x)/n)
+
+
+Notation about Means 
+
+Sample statistics
+
+- If your mean comes from a sample, it is called x-bar.
+- Use a lowercase n for sample size.
+
+Population Parameters
+
+- If your mean comes from a population,it is called mu.
+- Use an uppercase N for population size.
+
+
+Means vs. Medians 
+
+Medians
+- Very resistant  to outliers.
+- Very stable
+
+Means
+- Not resistant to outliers.
+- Not very stable.
+
+
+Trimming the Mean
+
+- A very high value or very low value(outliers) can really throw off the mean.
+- This is not a problem with the median.
+- One solution to make the mean more resistant is to "trim" data off each end so the outliers get cut off.
+- If you trim,you have to be fair and trim the smae amount off each side.
+
+How to make a 5% Trimmed Mean?
+1. Figure out how many dat points you have. Then, figure out what 5% of them would be.
+   - If ypu have 100 data points,5% would be 5 data points.
+2. Put the data in order.
+3. Remove 5% from the top and 5% from the bottom.
+   - Remove the 5 top ones and the 5 bottom ones.
+4. Now make the mean out of the remaining data.
+
+
+Weighted Average 
+
+- Sometimes, certain values should count more towards the mean than others.
+- If homework is 10% of your grade, and quizzes are 20% of your grade, the quizzes count for more than the homework.
+- You can arrange this by doing a weighted mean.
+
+Example
+
+- Homework worth 10% , quizzes worth 20%, and final worth 70%.
+- You got an A(4.0) on homework, B + (3.5) on quizzes, and B(3.0) on final.
+- Non-weighted average: (4+3.5+3)/3 = 3.5
+- Weighted average: (4.0*0.1) + (3.5*0.2) + (3.0*0.7) = 3.2
+
+
+
+Weighted Average Formula = sigma(xw)/sigma(w), w - weightage
+
+
+
+Measures of Central Tendency  & Normal Distribution
+
+- This is a normal distribution.
+- Using these data, a person could determine:
+   - Mean
+   - Median
+   - Mode
+- They are all on top of each other(all are same value).
+- Mean,Median,Mode are measures of central tendency.
+
+
+Measures of Central Tendency  & Skewed Distribution
+
+- Here are right and left skewed distributions.
+- Note the relative positions of the following:
+   - Mean
+   - Median
+   - Mode
+
+Central Tendency - It is the tendency of the random variable to cluster around the mean,median or mode.
+
+Measures of Variation
+
+
+Variation
+
+- How much does the data vary?
+- Imagine two different classes with the same mean grade.
+- Can we tell how consistent each class was internally in terms of grades from a measure of central tendency?
+
+
+Measures of Variation
+
+- Range
+- Variance and Standard Deviation
+   - Sample and population
+- Coefficient of variation
+
+
+
+Range
+
+ - The range is the difference between the maximum and minimum value.
+ - It is easy to calculate 
+ - Don't forget to actually do the substraction.
+
+   42 33 21 78 62
+
+   - In the above data,78 is the maximum
+   - 21 is the minimum
+   - 78 minus 21 = 57
+   - 57 is the range.
+
+The Range is Not Very useful
+
+- The range is not very useful for looking at variation because it just relies on two points.
+- It's not stable or resistant.
+- Therefore, other measures are used to look at variation typically.
+
+   42 33 21 78 62
+- We had a range of 78 minus 21 = 57
+- We could just change these two numbers and get a totally different range.
+
+
+
+Variance &  Standard Deviation
+
+- They are friends because this is how you calculate them:
+   1. First, calculate the variance.
+   2. Then, take the square root of variance, and that is the standard deviation.
+- "Variance"
+   - How much the data vary.
+   - Think: how well does the mean represent the spread of the data?
+- "Standard deviation"
+   - "Standard" - following a standard, same
+   - "deviation" - like a deviated septum.How much data deviates around the mean.
+
+
+Formulas  for Variance & Standard Deviation
+
+ - The formulas for sample variance and sample standard deviation are different than those for population variance and population standard deviation.
+   - We don't use the population ones that often
+   - We will concentrate on how to use the sample ones.
+
+- Two different ways of doing the formula(for both sample for population) - the "defining formula" and the "computational formula"
+   - Both get the same results.
+   - I dislike the "computational formula" because I get really confused.
+   - Therefore, I will teach you the "defining formula"
+
+
+Let's Look at Formulas
+
+ Sample Defining Formulas
+
+Sample variance = s^2 = sigma((x - x bar)^2)/ (n-1)
+
+Sample standard deviation =   s =  root(sigma((x - x bar)^2)/ (n-1))
+
+
+Sum of Squares 
+
+- sigma(x-x bar)^2 is another way of saying sum of squares.
+   - An easy way to explain this(what the "squares" are) is to show an example of how to calculate it.
+   - Imagine a sample of 6 patients presented to the central lab.We asked them how many minutes they had to wait to get service, and got these numbers:
+      2 3 3 8 10 10
+
+   - Each measurement is an x. First,fill in the x's.
+   - Fill in the sum(sigma) of the x's at the bottom.
+   - To figure out Column II(x minus x-bar),the sample mean(x-bar) is needed.
+   - 36/6 (n=6) = a mean of 6.
+   - Now Column II can be filled in.
+   - For Column III((x minus x-bar)^2), square each value in Column II. Those are the "squares".
+   - At the bottom, add them up. That's the sum of squares.
+   - Sum of squares = 70.
+
+Sample variance = s^2 = sigma((x - x bar)^2)/ (n-1)
+
+- Remember,the sample was from 6 patients.
+- Therefore, n= 6
+- n - 1 = 6 - 1 = 5
+
+Sample variance = s^2 = 70/5 = 14
+Sample standard deviation =   s = root(14)
+
+
+
+Look at Formulas
+
+Sample Defining Formulas
+
+Sample variance = s^2 = sigma((x - x bar)^2)/ (n-1) 
+
+Sample standard deviation =   s =  root(sigma((x - x bar)^2)/ (n-1))
+
+Population variance = sigma^2 = sigma(x-mue)^2/N
+Population standard deviation = sigma = root(sigma(x-mue)^2/N)
+
+
+
+Coefficient  of Variation(For Comparisons)
+
+
+- You will notice the word "coefficient" used a lot in statistics.
+- Coefficient of Variation is CV for short.
+- CV shows how much the sata varies compared to the mean.
+- Always expressed in a %.
+
+Sample CV = s(sd of sample)/x bar * 100
+Population CV = sigma / mua * 100
+
+      Patients: s = 3.74, x-bar = 6
+      3.74/6 * 100 = 62%
+ 
+
+CV is used for Comparison 
+- CV is also called relative standard deviation.
+- It's hard to explain with only one group of patients.
+- CV has no units - so you could compare two different ways of measuring a lab value,for example.
+- The CV is the measure of the spread of the data relative to the average of the data.
+   - In the first sample,the s is only 50% of the mean.
+   - In the second sample,the s is 62% of the mean.
+
+   Other Patients: s = 4,x-bar = 8
+      4/8 * 100 = 50%
+
+   If variance increase comparing to mean then its more unstable.
+   Less variance is good.
+
+
+Chebyshev's Theorem
+
+
+What Chebyshev Figured Out
+
+- First , he started thinking like this:
+   - If you have an x-bar and an s,you can create lower and upper limits by substracting the s and adding the s to the x-bar.
+   - You can do this with a mue and sigma , too - population version.
+- For example, if i had an mue of 100, and an sigma of 5:
+   - If I substracted 1 sigma from 100,I'd get 95 as the lower limit.
+   - If i add 1 sigma to 100,I get 105 as the upper limit.
+   - I could even try this by doing 2 sigma - meaning substracting 10 for the lower limit and adding 10 for the upper limit.
+- He realized if he used some rules along with this,there would be an interpretation of these limits that would be useful. 
+
+
+Chebyshev's Theorem
+
+- He figured out the upper and lower limits, when figured out this way,explained at least what % of the data would be between these limits in his dataset.
+- He wanted this to work for all distributions,not just normal.
+- He used a formula to figure out this % that was based on the s.He used "k" to mean the number of "s"'s(or "sigma"'s) in the equation:
+   1-1/k^2 = % of data between x-bar minus k and x-bar plus k.
+
+- Note: Chebyshev already did this,so you don't have to memorize this formula. This is just the proof.
+- He used the following numbers for k:2,3 and 4.
+- He got the following answers:
+   - If you do x-bar (or mue) minus 2 s (or 2(sigma)) and x-bar (or mue) plus 2 s(or 2(sigma)),the % of data between the lower and upper limits is 75%.
+      - If you plug 2 into the equation,you will get 75%.
+   - For 3 s (or 3(sigma)),it is 89.9%
+   - For 4 s (or 4(sigma)) it is 93.8%
+- The space between the upper and lower limits is called the "Chebyshev Interval"
+
+Example
+
+Patient Sample(waiting room minutes) s = 3.74,x-bar = 6.
+- Calculate limits for patient Sample
+   - 75% limits:6 +/-(2*3.74) = -1.48 to 13.48
+   - 88.9% limits:6 +/-(3*3.74) = -5.22 to 17.22
+   - 93.8% limits:6 +/-(4*3.74) = -8.96 to 20.96
+
+- Interpretation 
+   - At least 75% of the data are between  -1.48 and 13.48
+   - At least 88.9% of the data are between  -5.22 to 17.22
+   - At least 93.8% of the data are between  -8.96 to 20.96
+
+- It works for any distrubution (normal,skewed,etc)
+- chebyshev intervals tell you that at least a certain % is in the interval.
+- Chebyshev intervals are Sometimes non-sensical(negative numbers,very high limits)
+- They are not very useful and not used in healthcare
+- The purpose of teaching this is to point out in statistics,
+ we often use the s or sigma and add/substract it from the mean because it is a good way to make lower and upper limits that have special significance.
+
+
+Percentiles and  Box-and-Whisker Plots
+
+
+Percentiles
+
+- Quantitative data
+- Remember standardized tests...
+- Example: If you test at the 77th percentile,it means you did better than 77% of the people taking the test.
+- If 100 people took the test,yoy'd have done better than 77 of them.
+
+
+
+Percentile Definition
+
+- Percentiles can be between 1 and 99.
+   - You can't have a -2nd percentile, or a 105th percentile
+- Whatever number you pick:
+   - That % of values fall below the number.
+   - And 100 minus that % of values fall above the number 
+- Example:20 people take a test.
+   - Let's say there is a maximum score of 5 on the test.
+   - The 25th percentile means 25% of the scores fall below this score, and 75% fall above that score.
+- Let's say it is an easy test, and 12 people get a 4,and the remaining 8 get a 5.The 25th percentile,or the score the cuts off the bottom 5 tests scores,will be 4.(Even the 50th percentile will be 4.)
+- This would some out very different if it were a hard test,and most people got below a score of 3.
+
+
+Quartiles and  Interquartile Range
+
+
+Quartiles
+
+- Quartiles is a specific set of percentiles
+   - 1st quartile: 25th percentile
+   - 2nd quartile: 50th percentile(also median)  
+   - 3rd quartile: 75th percentile
+- These can be calculated by hand.
+
+
+Computing Quartiles
+
+1. Order the data from smallest to largest.
+2. Find the median.
+   - 2nd quartile
+   - 50th percentile
+3. Find the median of the lower half of the data.
+   - 1st quartile
+   - 25th percentile
+4. Find the median of the upper half of the data.
+   - 3rd quartile
+   - 75th percentile
+- Remember the range?
+- New! Interquartile range
+- Once you have 3rd quartile and 1st quartile you can calculate interquartile range(IQR)
+- 3rd quartile minus 1st quartile = IQR
+
+
+Quartile Example
+
+1. Order the data from smallest to largest.
+2. Find the median. That's Quartile 2/50th percentile.
+3. Find the median of the lower half of the data for Quartile 1/25th percentile.
+4. Find the median of the upper half of the data for Quartile 3/75th percentile.
+
+The following are a sample of numbers of beds from 11 Mass.hospitals(ordered)
+
+   41 74 90 97 121 126 142 155 254 318 364
+
+ 126 = 50th percentile
+ 90 = 25th percentile
+ 254 = 75th percentile
+
+IQR = 254 - 90 = 164 
+
+
+More  Notes on Q1 and Q2
+
+- Imagine we started with 6 values.
+   - The median would be between the 3rd and 4th position.
+   - Therefore, all 3 values below the median would be considered in calculating Q1, and all 3 above the median would be considered in calculating Q3.
+
+   41 74 90 97 121 126
+
+- What if we had 7 values instead of 6?
+   - The median would be the 4th one in order. Because 7 is odd, the median then is not included in the lower or upper half of the data(used to calculate Q1 and Q3)
+- Q1 would consider the 3 values below the 4th position, and Q3 would consider the 3 values above the 4th position, but the actual median in the 4th position(median) would not be considered.
+   41 74 90 97 121 126 142
+
+
+
+Box-and-Whisker Plot(Percentiles Graphed)
+
+
+Box Plot Ingredients
+
+Units: Hospital beds
+Minimum = 41
+Q1 = 90
+Median(Q2) = 126
+Q3 = 254
+Maximum = 364
+
+Let's make a box plot!
+
+The following are a sample of numbers of beds from 11 Mass. hospitals(ordered)
+   41 74 90 97 121 126 142 155 254 318 364
+- Box representing the IQR
+- Line inside the IQR Box is the median.
+- Whiskers are the maximum and minimum values.
+
+
+Why Box-and-Whisker Plots?
+
+- Help see the distribution in the data.
+- Another way to look at distribution.
+   - Histogram
+   - Stem-and-leaf
+- Also can see spread of data
+
+
+Scatter Diagrams and Linear Correlation
+
+Scattegram(Scatterplot)
+
+- Scattegrams Graph x,y Pairs
+
+   - Explanatory(independent) variable is called x
+      - Graphed on x-axis
+- Respons(dependent) variable is called y
+   - Graphed on y-axis
+- Scatter diagram is a graph of these x,y pairs
+
+
+Do the number of diagnoses a patient has correlate with the number of medications s/he takes?
+
+
+Linear Cprrelation
+
+- Linear correlation means that when you make a scatterplot of x,y pairs, it looks kind of like a line.
+- "Perfect" linear correlation looks like graphing points in algebra.
+
+
+Facts About Linear Correlation
+
+- The line can go up. This is a positive correlation.
+- The line can go down.This is negative correlation.
+- The line can be straight.This is no correlation.
+- The line can be goofy.
+   This is also no correlation.
+
+Correlation Has Two Attributes
+
+Direction
+
+- Positive correlation
+- Negative correlation
+- No correlation
+
+Strength
+
+- Strength refers to how close to the line all the dots fall.
+- If they fall really close to the line, it is strong
+- If they fall kind of close to the line, it is moderate
+- If they aren't very close to the line,it's weak. 
+
+
+Outliers in Correlation
+
+- Outliers can have a very powerful effect on a correlation.
+- An outlier in any of the 4 corners of the plot can really affect the direction of the line.
+- An outlier can also change the correlation from strong and moderate to weak.
+- It's good to look at a scatterplot to make sure you identify outliers.
+
+
+Correlation Coefficient r
+
+- Remember "coefficient" from CV (coefficient of variation or relative sd)?
+- Coefficient just means a number
+- r stands for the sample correlation coefficient
+   - Remember! Correlation
+   - Population correlation coefficient = P(raw)
+   - We will only focus on r
+
+
+What is r?
+
+What it is
+
+- A numerical quantification of how correlated a set of x,y pairs are
+- Calculated from plugging x,y pairs into an equation 
+- Has a defining formula and a computational formula
+- I will demonstrate computational formula
+
+How to interpret it
+
+- The r calculation produces a number
+- The lowest number possible is -1.0
+   - Perfect negative correlation
+- The highest possible number is 1.0
+   - Perfect positive correlation
+- All others are in-between
+
+
+Calculating r
+
+
+Computational Formula
+
+
+r = n*sigma(x*y) - (sigma(x)*sigma(y))/root(n*sigma(x^2)) * root(n*sigma(y^2))-sigma(y)^2
+
+
+Hypothetical Scenario
+
+- We have 7 patients
+- They have come to the clinic for appointments throughout the year.
+- We predict those with a higher diastolic blood pressure (DBP) will have more appointments.
+- We take DBP at last appointment as "x"
+- We take number of appointments over the year as "y"
+
+Opinion
+For positive correlations:
+- 0.0 to 0.40:Weak
+- 0.40 to 0.70:Moderate
+- 0.70 to 1.0:Strong
+
+
+Facts About r
+
+- r requires data with a "bivariate normal distribution" - we do not cover looking at this in this class,but please know this.
+- r does not have units.
+- Perfect linear correlation is r=-1.0 or r=1.0(depending on direction).
+  No linear correlation is r=0.
+- Positive r means as x goes up, y goes up,and as x goes down,y goes down.
+- Negative r means as x goes up,y goes down,and as x goes down,y goes up.
+- Even if you switched a and y on the axes,you'd get the same r.
+- Even if you converted x and y to different units(e.g.,you converted measurements into the metric system),you'd get the same r.
+
+
+Lurking Variables and "Correlation is not Causation"
+
+
+Correlation is not Causation
+
+   - Beware of lurking variables!
+   - A lurking variable that influences both dependant and independant variable.  
+   - Selecting x and y is political - you are implying x could cause y
+      - Example: Taller people are heavier ,so x=height and y=weight
+      - People who are overweight do not suddenly grow taller 
+   - But there are other causes of weight besides height
+   - Genetics can cause both height and weight.
+      - A genetic profile that leads to tallness and obesity could be a lurking variable in the relationship between height and weight.
+   
+
+
+
+Examples 
+
+Claims
+
+- Eating ice cream causes murders,because when more ice cream is sold,murder rates rise.
+
+Reality
+
+- "Summer" and warm weather are lurking variables.
+   - Summer increases ice cream consumption
+   - Summer means more people are outside so more murders occur.
+
+
+Conclusion
+
+- When doing correlations,make a scattergram first to get an idea of strength,direction, and outliers.
+- Be careful when calculating r by hand.
+- Beware of lurking variables - correlation is not necessarily causation!
+
+
+
+Linear Regression and the Coefficient of Determination
+
+
+Least-Squares Criterion
+
+-  The rule is that the line has to meet the "least squares criterion"
+
+-  "least-squares line"
+   - The vertical distances between the dot and the line are squared to get rid of negative sign.
+   - These are called "squares"
+
+- The line belongs where it would cause the smallest sum of squares for the whole dataset.
+
+
+Least-Squares Line Equation
+
+Remember Algebra?
+
+y = bx + a
+
+b = Slope(Rise/Run) , a = y-intercept
+
+We need to find the Least square line.
+
+- Formula l'm using for b
+   b = n*sigma(xy) - (sigma(x))(sigma(y))/n*sigma(x^2) - sigma(x)^2
+   a = y-bar - b* x-bar
+
+
+Predicting with the Least Squares Line Equation
+
+Rule About Least Squares Line
+ - x-bar and y-bar always fall on the least squares  line - but other points may or may not
+
+
+Facts About the Slope(b)
+
+- The slope(b) of the least-squares line tells us how many units the response variable(y) is expected to change for each 1 unit of change in the explanatory variable(x).
+- For our example: y preidct = 1.1x - 80.0
+   - x = DBP, y = # of appointments
+   - For each increase in 1 mmHg of DBP(x),there is a 1.1 increase in the number of appointments the patient had over the past year(y)
+- The number of units change in the y for each unit change in x is called the "marginal change" in the y.
+
+
+Influential Points 
+
+- Like with r,if a point is an outlier, it can drastically influence the least squares line equation.
+- An extremely high x or extremely low x can do that.
+- Always check the scattergram first for outliers.
+
+
+
+What is the "Residual"?
+
+Residual = sigma(actual y - predicted y)
+
+- Once the equation is there,you can plug each x in,and get a y-predict out.
+- Patient #1
+   - (1.1*70) - 80.0 = -3
+- Patient #2:
+   - (1.1*115) - 80.0 = 46.5
+
+Residual is y minus y-hat(predict)
+Patient #1:3 - (-3) = 6
+Patient #2:45 - 46.5 = -1.5
+
+Bottom Line: Big residual value means the line did not fit very well.
+
+
+
+Using Least Squares Line Equation for Prediction
+
+- Let's say you knew someone's DBP and you wanted to predict how many appointments s/he would have next year.
+- You can plug the DBP in as x,and get y-hat out,and say that's your prediction.
+- If you use an x within the range of the original equation(70-125),this type of prediction is called interpolation.
+- If you use an x from outside the range(such as 65,or 130),it is extrapolation - not a great idea.
+
+
+Is it Really This Easy to Make Predictions Using the Least Squares Line?
+
+- No.You can make a linear equation out of any x,y pairs.
+- If there is no linear correlation,though,the line is meaningless for prediction.
+- Imagine a line for this scatterplot-would that really work for prediction?
+- To evaluate if our least-squares line equation  is should be used for Interpretation,we use the Coefficient of Determination.
+
+
+
+
+Coefficient of Determination(CD) - r^2
+
+- This is r^2(in other words,r times r)
+   - Then,like CV,we turn it into a %
+- In the example,our r = 0.95
+- 0.95 * 0.95 = 0.90
+- CD = 90%
+- 90% = explained variation in y(by the linear equation)
+- 100% - 90% = 10% unexplained variation
+- "90% of the variation in the number of appointments is explained by DBP."
+- "10% of the variation in the number of appointments is NOT explained by DBP."
+- What happens if the CD is low?
+   - Cd should be better than at least 50%(random)
+   - The higher,the better
+   - If it is low,it means other variables might be needed to explain more of the variation.
+
+
+
+Normal Distribution and Empirical Rule
+
+
+Normal Distribution
+
+Remember Distributions?
+- Using quantitative variable
+- Classes determined
+- Frequency table made
+- Frequency histogram
+- Then we could see the distribution
+
+Remember the Normal Distribution?
+
+- Imagine a large class(n=100) takes a very difficult test.
+- The test is worth 100 points,but it's so hard,no one actually gets 100 points.
+- Instead,the mode is near a C grade.
+
+
+Properties of the Normal Curve
+
+1. The curve is bell-shaped,with the highest point over the mean.
+2. The curve is symmetrical around a vertical line through the mean.
+3. The curve approaches the horizontal axis but never touches or crosses it.
+4. The inflection(transition) points between cupping upward and downward occur at about mean +/- 1 sd.
+5. The area under the entire curve is 1(think 100%).
+
+
+
+Empirical Rule
+
+Remember Chebyshev?
+
+- Intervals have bountaries, or limits: lower limit and upper limit.
+- Remember Chebyshev Intervals?
+   - They say,"At least ___% of the data fall in the interval."
+   - When lower limit was mue-2(sigma),and upper limit was mue + 2(sigma), at least 75% of the data were in the interval.
+- Imagine n = 100 students, mue score on test 65.5, sigma = 14.5
+   - Lower limit: 65.5 - (2*14.5) = 36.5
+   - Upper limit:65.5 + (2*14.5) = 94.5
+   - So if you had 100 data points, at least 75 would be between 36.5 and 94.5.
+
+
+
+Chebyshev vs. Empirical Rule
+
+Chebyshev's Theorem 
+
+1. Applies to any distribution
+2. Says "at least"
+   - between mue +/- 2(sigma),there are AT LEAST 75% of the data.
+   - between mue +/- 3(sigma) is at least 88.9%
+   - between mue +/- 4(sigma) is at least 93.8%
+
+Empirical Rule
+
+1. Applies to ONLY the normal distribution 
+2. Says "approximately"
+   - 68% of the data are in interval mue +/- 1(sigma)
+   - 95% in interval mue +/- 2(sigma)
+   - 99.7%(almost all) in interval mue +/- 3(sigma)
+
+Applying Empirical Rule
+
+mue - 3(sigma) (0.15%) , mue - 2(sigma) (2.35%), mue - 1(sigma) (13.5%),(34%) mue,mue + 1(sigma),mue + 2(sigma),mue + 3(sigma)
+
+   - Remember n=100?
+   - 34% of scores are between 51 and 65.5,meaning34 scores.
+   - Another 34% (n=34) are between 65.5 and 80.
+   - This means 34%+34% = 68% (n=68) are between 51 and 80.
+
+ - The Empirical Rule helps establish intervals that apply to normally distributed data.
+ - These intervals have a certain percentage of the data points in them.
+ - These intervals depend on the mean and standard deviation of the data distribution.
+
+
+Z-scores & Probabilities
+
+
+
+What is a Z-Score?(Introduction to Standard Normal Distribution)
+
+
+Remember the Empirical Rule?
+   - Required normal distribution
+   - Worked well for the cutpoints available
+      - What about in-between?
+
+
+

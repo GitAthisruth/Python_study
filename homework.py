@@ -10,7 +10,7 @@
 # u=int(input('Enter the diviser:'))
 # print(call(n,u))
 
-#prime number
+# prime number
 
 # n=int(input('Enter a num:'))
 # if n>1:
@@ -22,6 +22,8 @@
 #         print(n,'is a prime')
 # else:
 #     print(n,'is not a prime')
+
+
 
 
 #Vowels
