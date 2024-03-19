@@ -30,3 +30,19 @@
 
 # say_hi('mike',45)
 
+
+
+# a = int(input("enter first num: "))
+# b = int(input("enter second num: "))
+
+
+
+# def sum_calc(a,b):
+#     sum = a+b
+#     return sum
+
+
+# print(sum_calc(a,b))
+
+
+

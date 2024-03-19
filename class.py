@@ -578,24 +578,24 @@
 
 ###################################################################################################
 
-def decorator_function(original_function): #inner function return the outer function and outer function return the inner function name.
-        def wrapper_function():
-                print(f"wrapper executed before the {original_function.__name__}")
-                return original_function()   #here exactly calling the display function.
-        return wrapper_function      #here we just call the function name 
+# def decorator_function(original_function): #inner function return the outer function and outer function return the inner function name.
+#         def wrapper_function():
+#                 print(f"wrapper executed before the {original_function.__name__}")
+#                 return original_function()   #here exactly calling the display function.
+#         return wrapper_function      #here we just call the function name 
 
 
 
 
 
-@decorator_function #This is the decorator #Here we calling the display function through the main function-decorator_function.
-                    #here display function move as an argument to the main function.Here last execution is the returning the original_function(ie,original function = display function only inside the function we can't call it outside the function).
-                    #then all value pass to the display function.
-def display():
-        print('display function executed')
+# @decorator_function #This is the decorator #Here we calling the display function through the main function-decorator_function.
+#                     #here display function move as an argument to the main function.Here last execution is the returning the original_function(ie,original function = display function only inside the function we can't call it outside the function).
+#                     #then all value pass to the display function.
+# def display():
+#         print('display function executed')
 
 
-display()#when we call the display function the name display move as an argument to the main function.(when we give return and print function then we can use print function to call the function)
+# display()#when we call the display function the name display move as an argument to the main function.(when we give return and print function then we can use print function to call the function)
 
 
 
