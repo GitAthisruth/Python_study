@@ -9,3 +9,37 @@ Integration - finding the area under the curve
 
 Derivatives and Integration are opposite to each other.
 
+
+Five Concepts in Calculus
+
+
+
+    1. Function Notation
+    2. Linear Function
+    3. Exponents
+        - Rational Exponents
+        - 
+    4. Domain Range
+        Interval vs Set Notation
+
+    Interval Notation               Set Notation
+
+    ( ) -> not inclusive             > , < 
+    [ ] -> inclusive                 >= , <= 
+    infinity, - infinity - They
+    are always not inclusive.eg -  (-infinity,4]
+
+    5. Composite Functions
+
+
+slope = m = rise/run = y2 - y1 / x2 - x1
+
+
+
+
+
+
+
+
+    
+
