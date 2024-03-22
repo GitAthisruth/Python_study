@@ -38,8 +38,14 @@ slope = m = rise/run = y2 - y1 / x2 - x1
 
 Differentiation - Gradient of curve
 
-- If we can use infinitely small columns to find area of any shapes.
+- If we can use infinitely small columns to find area of anything.
 
+- Uphill - positive slope
+- Downhill - negative slope
+
+- The slope of a non-linear function is different at different points along the function. The slope may be positive, negative or zero as indicated by the tangent lines in the following chart. The value obtained for the slope depends on the point on the function where the tangent line is drawn.
+
+- Slope of a straight line is always same.
 
 
 
