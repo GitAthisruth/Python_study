@@ -36,6 +36,13 @@ Five Concepts in Calculus
 slope = m = rise/run = y2 - y1 / x2 - x1
 
 
+Differentiation - Gradient of curve
+
+- If we can use infinitely small columns to find area of any shapes.
+
+
+
+
 
 
 
