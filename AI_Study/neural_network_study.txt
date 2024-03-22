@@ -47,6 +47,11 @@ Differentiation - Gradient of curve
 
 - Slope of a straight line is always same.
 
+- Infinity is NOT a number!
+- 1/Infinity GOES to 0,but does not = 0.
+- 1/Infinity allows us to find areas of shapes using small columns.
+- 1/Infinity allows us to turn curvy lines into small,straight lines.
+- 1/Infinity allows us to find the slope at certain times by looking at small times.
 
 
 
