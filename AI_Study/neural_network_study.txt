@@ -54,7 +54,10 @@ Differentiation - Gradient of curve
 - 1/Infinity allows us to find the slope at certain times by looking at small times.
 
 
+- Derivatives are fuctions that allow us to calculate the instantaneous rate of change of a fuction at any instant of time. 
+    - instantaneous rate of change of a fuction = slope of the tangent line at any instant of time.ie, average of the difference between two points. 
 
+- Integration - process to determine how much something accumulates over time. We can find that value by evaluating definite intgral or by calculating area under the curve.  
 
 
 
