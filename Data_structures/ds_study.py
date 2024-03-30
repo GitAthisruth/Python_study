@@ -124,25 +124,25 @@
 # }
         
 
+# def moveElementToEnd(array, target):
+#     i = 0
+#     j = len(array) - 1
+#     while i < j:
+#         while i < j and array[j] == target:
+#             j -= 1
+#         if array[i] == target:
+#             array[i],array[j] = array[j],array[i]
+#             # temp = array[i]
+#             # array[i] = array[j]
+#             # array[j] = temp
+#         i += 1
+#         print(array)
+#     return array
+
+# # Example usage
+# array = [6, 6, 2, 4,7,6,0,6, 2, 3, 4, 6]
+# target = 6
+# print(moveElementToEnd(array, target))
 
 
-
-def moveElementToEnd(array, target):
-    i = 0
-    j = len(array) - 1
-    while i < j:
-        while i < j and array[j] == target:
-            j -= 1
-        if array[i] == target:
-            temp = array[i]
-            array[i] = array[j]
-            array[j] = temp
-        i += 1
-        print(array)
-    return array
-
-# Example usage
-array = [6, 6, 2, 4,7,6,0,6, 2, 3, 4, 6]
-target = 6
-print(moveElementToEnd(array, target))
 
