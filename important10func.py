@@ -75,5 +75,18 @@
 
 #open
 
-file = open("testingmegatron.txt","w")
-file.write("hello world\nmy name is Tim")
+# file = open("testingmegatron.txt","w")
+# file.write("hello world\nmy name is Tim")
+# file.close()#we need to close it to avoid memory leak
+
+# with open("testingmegatron.txt","w") as file:
+#     file.write("hello world\nmy name is Tim")#here in this case we donot need to close it manually.
+
+
+# with open("testingmegatron.txt","r") as file:
+#     text=file.read()
+#     print(text)
+
+# with open("testingmegatron.txt","a") as file:#add to the end 
+#     file.write(" new addition")
+    
