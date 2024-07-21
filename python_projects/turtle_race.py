@@ -28,7 +28,7 @@ def race(colors):
             racer.forward(distance)
             x,y = racer.pos()
             if y >= HEIGHT // 2 - 10:
-                print("result" ,colors[turtles.index(racer)])
+                # print("result" ,colors[turtles.index(racer)])
                 return colors[turtles.index(racer)]
             
 
