@@ -17,7 +17,7 @@ def get_number_of_racers():
         if 2 <= racers <= 10:#digit between 2 and 10.
             return racers
         else:
-            print("Number not in range 2-10.")
+            print("Number not in range 2-10. Try Again!")
 
 def race(colors):
     turtles = create_turtles(colors)
@@ -27,7 +27,8 @@ def race(colors):
             distance = random.randrange(1,20)
             racer.forward(distance)
             x,y = racer.pos()
-            if y >= HEIGHT // 2 - 10 :
+            if y >= HEIGHT // 2 - 10:
+                print("result" ,colors[turtles.index(race)])
                 return colors[turtles.index(race)]
             
 
@@ -40,7 +41,7 @@ def create_turtles(colors):
         racer.shape('turtle')
         racer.left(90)
         racer.penup()
-        racer.setpos(-WIDTH//2 + (i+1)* spacingx,-HEIGHT//2 + 20)
+        racer.setpos(-WIDTH//2 + (i + 1) * spacingx, -HEIGHT//2 + 20)
         racer.pendown()
         turtles.append(racer)
     return turtles
