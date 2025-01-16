@@ -18,33 +18,33 @@
 #1.Stack add elements from bottom to top.
 #2.If we want to delete or insert an element in the middle or bottom part of a stack we need to pop the top elements first to another stack and insert or delete the respected element and then append the safe stack.
 
-words = input("Give four words: ")
-safe = []
-if words:
-    stack = words.split()
-    print(f"Our stack {stack}")
-    stack_len = len(stack)
-    print(stack_len)
-    while stack_len > 0:
-        pop_operation = stack.pop()
-        print(f"started to pop top elements from the stack {pop_operation} ")
-        stack_len -= 1
-        safe.append(pop_operation)
-        print(f"safe {safe}")
-        print(f"safe pop {pop_operation}")
-    len_ = len(safe)
-    while len_ > 0:
-        len_ -= 1
-        deleted = safe.pop()
-        if len(deleted) > 10:
-                print(f"element greater than 10 {deleted} and {len(deleted)}")
-                new_word = str(deleted[0]) + str(len(deleted) - 2) + str(deleted[-1])
-                stack.append(new_word)
-else:
-    print("Add any words..")
+# words = input("Give four words: ")
+# safe = []
+# if words:
+#     stack = words.split()
+#     print(f"Our stack {stack}")
+#     stack_len = len(stack)
+#     print(stack_len)
+#     while stack_len > 0:
+#         pop_operation = stack.pop()
+#         print(f"started to pop top elements from the stack {pop_operation} ")
+#         stack_len -= 1
+#         safe.append(pop_operation)
+#         print(f"safe {safe}")
+#         print(f"safe pop {pop_operation}")
+#     len_ = len(safe)
+#     while len_ > 0:
+#         len_ -= 1
+#         deleted = safe.pop()
+#         if len(deleted) > 10:
+#                 print(f"element greater than 10 {deleted} and {len(deleted)}")
+#                 new_word = str(deleted[0]) + str(len(deleted) - 2) + str(deleted[-1])
+#                 stack.append(new_word)
+# else:
+#     print("Add any words..")
 
 
-print(f"The words in stack are {stack}")
+# print(f"The words in stack are {stack}")
 
 # print(safe)     
     
@@ -92,3 +92,27 @@ print(f"The words in stack are {stack}")
 #     print("Add any words..")
     
 # print(f"The words in stack are {stack}")
+
+
+val = input("enter a val between 0 and 151 first and add statements 'X++ for addition and --X for substraction only': ")
+
+val = val.strip().split()
+# print(val)
+# print("val",val[1:])
+X = 0
+# print(X)
+
+for i in val:
+        # print(i)
+        if i in ["X++","++X"]:
+            X += 1
+        elif i in ["--X","X--"]:
+            X -= 1
+print(f"final value of X is: {X}")
+    
+
+    
+
+    
+    
+

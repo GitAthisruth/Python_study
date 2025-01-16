@@ -1,0 +1,19 @@
+# Question 1
+import random
+i = 0
+n = 12
+
+while(i < n):
+    val = random.randint(1, 100)
+    print(val)
+    val /= 10
+    print(val)
+    val += 2
+    print(val)
+    i += 1
+
+#Time complexity = O(n-1)
+
+
+# val = input("Enter a val: ")
+# print(val)

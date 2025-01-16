@@ -1,0 +1,17 @@
+# Question 2
+
+
+# def func_iter(n):
+#     if(n == 0):
+#         return 0
+#     elif(n == 1):
+#         return 1
+#     else:
+#         return func_iter(n - 1) + func_iter(n - 2)
+
+#Time complexity = O(2^n)
+
+
+
+
+
